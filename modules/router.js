@@ -9,6 +9,6 @@ export default ['$stateProvider', '$urlRouterProvider', function($stateProvider,
 		state('home', {
 			url: '/home',
 			templateUrl: 'home/home.html',
-			controller: 'loginCtrl as vm'
+			controller: 'homeCtrl as vm'
 		});
 }];
