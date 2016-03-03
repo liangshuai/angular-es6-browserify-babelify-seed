@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="cssp" translate>
+	<head>
+		<title>Customer Self Service Portal</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico?VERSION=$VERSION" />
+		<link href="index.css?VERSION=$VERSION" type="text/css" rel="stylesheet" />
+		<script src="index.js?VERSION=$VERSION"></script>
+	</head>
+	<body>
+		<div ng-include="'layout/layout-header.html'"></div>
+		<div ui-view></div>
+	</body>
+</html>

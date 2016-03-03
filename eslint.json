@@ -1,0 +1,21 @@
+{
+	"extends": "defaults/configurations/google",
+	"parser": "babel-eslint",
+	"plugins": [
+		"json",
+		"angular"
+	],
+	"globals": {
+		"require": true,
+		"module": true,
+		"$": true,
+		"angular": true,
+		"console": true,
+		"WeakMap": true
+	},
+	"rules": {
+		"max-len": [2, 140],
+		"indent": [2, "tab"],
+		"space-before-function-paren": [0, {"anonymous": "always", "named": "always"}]
+	}
+}

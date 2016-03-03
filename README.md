@@ -1,0 +1,1 @@
+Seed project for angular/es6/Browserify/Babelify
